@@ -1,0 +1,219 @@
+body{
+    margin:0px;
+    font-family: 'Cal Sans';
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    text-align:center;
+    box-shadow: 0px 0px 5px;
+    background: linear-gradient(to right,#ffa91e, #ffecce);
+    position: fixed;
+
+}
+nav a{
+    text-decoration: none;
+    color:#7B542F;
+    font-size: 22px;
+    padding: 10px 15px;
+    padding-top: 24px;
+    transition: ease-in-out 0.4s;
+    font-family: 'Cal Sans';
+}
+nav a:hover{
+    color:#ff9d00;
+}
+nav{
+    padding-top: 40px;
+    text-align: right;
+    padding-right: 15px;
+}
+.banner img{
+    margin-left: 10px;
+    width: 100px;
+    padding: 10px;
+}
+.banner{
+    display: flex;
+    font-size: 18px;
+    & h1{
+        padding-top: 8px;
+        color: #6a4624;
+    }
+}
+section.home{
+    height: 800px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    padding-top: 0px;
+    background-image:url("homeback.png");
+}
+.kotakBiotek{
+    width: 45%;
+    margin-left: 50px;
+    padding-top: 10px;
+& h1{
+    font-size: 120px;
+}
+}
+.namaBiotek{
+    font-size: 50px;
+}
+.deskBiotek{
+    color: #FF9D00;
+    background-color: #4f2d0cc1;
+    font-size: 24px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+}
+section.project{
+    height :800px;
+    padding-top: 5px;
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #7b542f;
+    color: #7B542F;
+    text-align: center;
+    background-image: url(backgroundkosong.png);
+& p{
+    font-size: 20px;
+}
+& h2{
+    font-size: 60px;
+    color: #553300;
+}
+& h3{
+    font-size: 30px;
+    color: #553300;
+}
+}
+section.project img{
+    height: 180px;
+    padding: 10px;
+}
+.jenisjenistempe{
+    display: flex;
+    justify-content: center;
+}
+.tempekede, .tempehijau, .tempekoro{
+    padding: 0px 15px 0px 15px;
+}
+.deskProject{
+    width: 60%;
+    margin: auto;
+    padding: 50px 20px;
+
+}
+section.Howto{
+    height :2900px;
+    padding-top: 40px;
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("backgroundkosong.png");
+    width: 100%;
+    font-size: 20px;
+    padding-bottom: 200px;
+    justify-content: center;
+    color: #4c2500;
+    text-decoration: none;
+    & p{
+        text-align: center;
+        color: #7b542f;
+    }
+    & h2{
+        font-size: 55px;
+        text-align: center;
+        color: #553300;
+}
+}
+.deskHowto{
+    width:80%;
+    margin: auto;
+    padding: 10px;
+}
+.dokumentasi{
+    text-align: center;
+}
+.dokumentasi img{
+    width: 40%;
+    box-shadow: #6e3500 0px 5px 5px 0px;
+    border-radius: 80px;
+}
+.alat2, .bahan2, .carabuattempe {
+    padding: 5px 0px 5px 30px;
+    background-color: #ffdb9c;
+    border-radius: 50px;
+    margin: 20px;
+}
+.carabuattempe a{
+    text-decoration: none;
+    color: #4c2500;
+    transition: ease-in-out 0.4s;
+}
+.carabuattempe a:hover{
+    color: #FF9D00;
+}
+
+
+section.profile{
+    height: 660px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    padding-top: 40px;
+    background-image: url("Gemini_Generated_Image_t1f1jyt1f1jyt1f1.png");
+    text-align: center;
+    & h2{
+        font-size: 55px;
+    }
+}
+.cardProfile{
+    background-color: #ffdb9c;
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    color: #4c2500;
+    font-size: 17px;
+    border-radius: 30px;
+}
+.imgProfile img{
+    padding-top: 45px;
+    width: 70%;
+}
+.medsos{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height:40px;
+    padding-top: 5px;
+}
+.medsos a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 24px;
+    color: #4c2500;
+    transition: ease-in-out 0.4s;
+}
+.medsos a:hover{
+    color: #FF9D00;
+}
+h1{
+    color: rgb(128, 59, 7);
+}
+h2{
+    color: rgb(128, 59, 7);
+}
